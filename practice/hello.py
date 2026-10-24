@@ -4,3 +4,4 @@
 print("你好，我是春和")
 print("今天是我学 Python 的第 1 天")
 print("1 + 1 =", 1 + 1)
+print("Hello,World!")

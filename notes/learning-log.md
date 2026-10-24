@@ -15,7 +15,7 @@
 
 | 日期 | 输入（1h 学） | 输出（1h 练） | 完成 |
 | --- | --- | --- | :---: |
-| 周一 10-26 | Python 变量/类型/print/input；VS Code 装 Python 扩展、会跑 .py 文件 | 手写 3 个小程序（自我介绍生成器、单位换算、简单问答） | ☐ |
+| 周一 10-26 | Python 变量/类型/print/input；VS Code 装 Python 扩展、会跑 .py 文件 | 手写 3 个小程序（自我介绍生成器、单位换算、简单问答） | ☑（10-23/24 提前完成） |
 | 周二 10-27 | 运算符与表达式、if/else 条件判断 | 写 3 个判断类练习（成绩评级、闰年判断、BMI 分级） | ☐ |
 | 周三 10-28 | for/while 循环、break/continue | 写 3 个循环练习（九九表、猜数字、累加统计） | ☐ |
 | 周四 10-29 | 函数定义、参数、返回值、作用域 | 把前 3 天的练习改写成函数版 | ☐ |
@@ -26,10 +26,21 @@
 ### 每日记录
 
 #### 2026-10-22（周四）环境安装日
-- 完成开发环境安装：Python 3.13.12（D:\Python）、VS Code 1.143.0（D:\VSCode）、Git 2.55.0（D:\Git），均装到 D 盘
+- 完成开发环境安装：Python 3.13.12（D:\Python）、VS Code 1.131.0 便携版（D:\VSCode，含中文语言包）、Git 2.55.0（D:\Git），均装到 D 盘
 - 注册 GitHub 账号，用户名 Chunhe0602
-- 创建本仓库 ai-learning-journey
-- 明天开始第 1 天学习
+- 创建本仓库 ai-learning-journey，首次提交已 push
+- 当晚跑通第 0 课 hello.py
+
+#### 2026-10-23（周五）第 1 课：变量与数据类型
+- 学完：变量赋值、四种数据类型（str/int/float/bool）、print()、input()、type()、类型转换 int()/float()/str()
+- 练习并跑通：day1_variables.py、day1_types.py、day1_input.py
+- 踩坑记录：① 代码符号必须用英文（中文逗号、中文引号会报 SyntaxError）② input() 永远返回 str，参与算术前必须先转换 ③ `+` 拼接要求同类，print(a, b) 用逗号并列不要求同类
+
+#### 2026-10-24（周六）第 1 课毕业日
+- 跑完三个综合练习：day1_self_intro.py（自我介绍生成器，自己加了"工作"输入行）、day1_converter.py（公里→英里换算，float() 转换）、day1_card.py（互动名片）
+- **第 1 课正式毕业**：变量 / 类型 / print / input / 类型转换 + 中英文符号坑，全部过关
+- 插曲：咨询 AI 证书价值，结论——现阶段不考，全力做项目；第 10–12 个月第一本考 Azure AI-102
+- 下一课（第 2 课）：运算符与 if/else 条件判断
 
 （后续每天在下面追加记录）
 
